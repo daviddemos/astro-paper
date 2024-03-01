@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
+  website: "https://paper-update.netlify.app/", // replace this with your deployed domain
+  author: "Stop Population Decline",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  title: "Population.FYI",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -58,7 +58,7 @@ export const SOCIALS: SocialObjects = [
     name: "Twitter",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
   },
   {
     name: "Twitch",
@@ -70,7 +70,7 @@ export const SOCIALS: SocialObjects = [
     name: "YouTube",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on YouTube`,
-    active: false,
+    active: true,
   },
   {
     name: "WhatsApp",
@@ -88,13 +88,13 @@ export const SOCIALS: SocialObjects = [
     name: "Pinterest",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Pinterest`,
-    active: false,
+    active: true,
   },
   {
     name: "TikTok",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on TikTok`,
-    active: false,
+    active: true,
   },
   {
     name: "CodePen",
@@ -106,7 +106,7 @@ export const SOCIALS: SocialObjects = [
     name: "Discord",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Discord`,
-    active: false,
+    active: true,
   },
   {
     name: "GitLab",
@@ -118,7 +118,7 @@ export const SOCIALS: SocialObjects = [
     name: "Reddit",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Reddit`,
-    active: false,
+    active: true,
   },
   {
     name: "Skype",
@@ -142,6 +142,6 @@ export const SOCIALS: SocialObjects = [
     name: "Mastodon",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Mastodon`,
-    active: false,
+    active: true,
   },
 ];
