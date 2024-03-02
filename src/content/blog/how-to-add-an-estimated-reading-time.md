@@ -125,7 +125,7 @@ const getPostsWithRT = async (posts: CollectionEntry<"blog">[]) => {
 export default getPostsWithRT;
 ```
 
-Step (6) Refactor `getStaticPaths` of `/src/pages/posts/[slug].astro` as the following
+Step (6) Refactor `getStaticPaths` of `/src/pages/p/[slug].astro` as the following
 
 ```ts
 ---
@@ -209,10 +209,10 @@ Step (2) Make sure to refactor every file which uses `getSortedPosts` function. 
 Files that use `getSortedPosts` function are as follow
 
 - src/pages/index.astro
-- src/pages/posts/index.astro
+- src/pages/p/index.astro
 - src/pages/rss.xml.ts
-- src/pages/posts/index.astro
-- src/pages/posts/[slug].astro
+- src/pages/p/index.astro
+- src/pages/p/[slug].astro
 - src/utils/getPostsByTag.ts
 
 All you have to do is like this

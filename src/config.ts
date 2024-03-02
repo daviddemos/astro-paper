@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://paper-update.netlify.app/", // replace this with your deployed domain
   author: "Stop Population Decline",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Population.FYI",
+  title: "population.fyi",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
